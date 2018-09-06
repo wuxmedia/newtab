@@ -87,11 +87,6 @@ body {
   opacity: 1;
 }
 
-h3 {
-  text-align: center;
-  color: #c5c8c6;
-}
-
 .button-area {
   margin: 10px auto;
   display: flex;
