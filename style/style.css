@@ -1,0 +1,113 @@
+body {
+  background-color: #303030;
+}
+
+.button-green:hover {opacity: 0.9}
+.button-orange:hover {opacity: 0.9}
+.button-purple:hover {opacity: 0.9}
+.button-blue:hover {opacity: 0.9}
+
+.button-green:active {
+  transform: translateY(4px);
+}
+
+.button-orange:active {
+  transform: translateY(4px);
+}
+
+.button-purple:active {
+  transform: translateY(4px);
+}
+
+.button-blue:active {
+  transform: translateY(4px);
+}
+
+.button-green {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #b5bd68;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.button-orange {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #de935f;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.button-purple {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #b294bb;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.button-blue {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #81a2be;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+h3 {
+  text-align: center;
+  color: #c5c8c6;
+}
+
+.button-area {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 850px;
+  padding-bottom: 10px;
+  a {
+    background: #999;
+    padding: 1em 2.4em;
+    font-size: 2em;
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+  }
+}
