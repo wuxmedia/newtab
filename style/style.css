@@ -24,6 +24,7 @@ body {
 }
 
 .button-green {
+  width: 12vw;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: #b5bd68;
   border: none;
@@ -40,6 +41,7 @@ body {
 }
 
 .button-orange {
+  width: 12vw;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: #de935f;
   border: none;
@@ -56,6 +58,7 @@ body {
 }
 
 .button-purple {
+  width: 12vw;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: #b294bb;
   border: none;
@@ -72,6 +75,7 @@ body {
 }
 
 .button-blue {
+  width: 12vw; 
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: #81a2be;
   border: none;
@@ -93,7 +97,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 850px;
+  max-width: 80vw;
   padding-bottom: 10px;
   a {
     background: #999;
